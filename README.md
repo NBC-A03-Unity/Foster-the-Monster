@@ -1,7 +1,6 @@
 # Foster-the-Monster
 Foster the Monster's public repositoy. You can check the code here
 
-# Random5bject
 ## 🎇 Team Notion
 
 https://teamsparta.notion.site/5-ce9ebdee79f745cd944f4e8476316ab8
