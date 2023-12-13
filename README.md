@@ -7,8 +7,7 @@ https://teamsparta.notion.site/5-ce9ebdee79f745cd944f4e8476316ab8
 
 
 ## 🖥️ Project Introduction
-스파르타코딩클럽 내일배움캠프 - 게임 기초 프로젝트
-<br>[111%] Random Dice : Defense / JUSDICE Like Game</br>
+'Foster the Monster'는 매일 다른 카드를 선택하여 그로테스크한 포스몬을 관리하고 연구하며, 다양한 행성을 탐험하고 전투를 벌이면서 인류의 미래를 위해 결정적인 발견을 하고 중대한 선택을 내려가는 게임입니다.
 
 <br>
 
