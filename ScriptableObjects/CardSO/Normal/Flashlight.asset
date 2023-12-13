@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7ecb093184cfca47846fc7434da3ef1, type: 3}
+  m_Name: Flashlight
+  m_EditorClassIdentifier: 
+  cardId: 404
+  cardName: "\uC190\uC804\uB4F1"
+  cardInfo: "[\uC544\uC774\uD15C] \uB208\uBD80\uC154!"
+  cardImage: {fileID: 21300000, guid: 02e81cacb3b9756429361769c2c91613, type: 3}
+  cardRarity: {fileID: 11400000, guid: f199997718977c4409b48f2dfc273275, type: 2}
+  cardEffects:
+  - effect: {fileID: 11400000, guid: 3adbe9faf6ec159448c86d4fc461fa12, type: 2}
+    value: 1
+  cardSynergies: []
+  cardType: 4

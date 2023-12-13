@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d582044d65b2442b99a76c9d3f69ab, type: 3}
+  m_Name: NormalCardSO
+  m_EditorClassIdentifier: 
+  cardImageByRarity: {fileID: 21300000, guid: fb958c1157a44a245b5a65475b7faa10, type: 3}
+  cardImageGem: {fileID: 21300000, guid: c893c70ba6d1b294c9e98feb921bc760, type: 3}
+  cardRarity: 0

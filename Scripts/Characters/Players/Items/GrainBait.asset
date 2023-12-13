@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5262cf1d95da874aa59dfaf9dea4e50, type: 3}
+  m_Name: GrainBait
+  m_EditorClassIdentifier: 
+  ItemName: "\uACE1\uBB3C \uBBF8\uB07C"
+  ItemDescription: "\uACE1\uBB3C\uC744 \uC88B\uC544\uD558\uB294 \uD3EC\uC2A4\uBAAC
+    \uC720\uC778\uC6A9 \uBBF8"
+  ItemSprite: {fileID: 21300000, guid: 435c9816cfba23c4e8eecc0854098cb8, type: 3}
+  ItemType: 2
+  WeaponType: 0
+  Rarity: 3
+  ItemParameter: 0
+  ItemID: 5
+  stimulusDatas:
+  - objectType: 0
+    type: 2
+    foodType: 1
+    icon: {fileID: 21300000, guid: 435c9816cfba23c4e8eecc0854098cb8, type: 3}
+    range: 2
+    hasDestroyTime: 0
+    stimulusDuration: 0
+    isIdentifiable: 0
+  - objectType: 0
+    type: 0
+    foodType: 1
+    icon: {fileID: 21300000, guid: 435c9816cfba23c4e8eecc0854098cb8, type: 3}
+    range: 2
+    hasDestroyTime: 1
+    stimulusDuration: 5
+    isIdentifiable: 0
+  - objectType: 0
+    type: 0
+    foodType: 0
+    icon: {fileID: 0}
+    range: 2
+    hasDestroyTime: 0
+    stimulusDuration: 0
+    isIdentifiable: 0

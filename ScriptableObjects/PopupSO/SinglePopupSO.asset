@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 301cbcc8142c72a49b1f327ae368d1c1, type: 3}
+  m_Name: SinglePopupSO
+  m_EditorClassIdentifier: 
+  popups:
+  - popupKey: 3000
+    title: "[\uC54C\uB9BC]"
+    message: "\uBAA8\uB4E0 \uBAAC\uC2A4\uD130\uC758 \uC5F0\uAD6C \uACB0\uACFC\uB97C
+      \uD655\uC778\uD574 \uC8FC\uC138\uC694!"
+    buttonText: "\uD655\uC778"
+  - popupKey: 4000
+    title: Exam Title
+    message: Exam Message
+    buttonText: Exam Button
+  - popupKey: 3001
+    title: "[\uC54C\uB9BC]"
+    message: "\uBCF4\uC720\uD55C Gold\uAC00 \uBD80\uC871\uD569\uB2C8\uB2E4!"
+    buttonText: "\uD655\uC778"
+  - popupKey: 4001
+    title: Exam Title
+    message: Exam Message
+    buttonText: Exam Button
+  - popupKey: 3002
+    title: "[\uC54C\uB9BC]"
+    message: "\uC5F0\uAD6C \uACB0\uACFC\uAC00 \uC800\uC7A5\uB418\uC5C8\uC2B5\uB2C8\uB2E4.!"
+    buttonText: "\uD655\uC778"
+  - popupKey: 4002
+    title: Exam Title
+    message: Exam Message
+    buttonText: Exam Button
+  - popupKey: 3003
+    title: "[\uC54C\uB9BC]"
+    message: "\uC624\uB298\uC740 \uB354 \uC774\uC0C1 \uD589\uC131\uC5D0 \uBC29\uBB38\uD560
+      \uC218 \uC5C6\uC2B5\uB2C8\uB2E4."
+    buttonText: "\uD655\uC778"
+  - popupKey: 4003
+    title: Exam Title
+    message: Exam Message
+    buttonText: Exam Button
+  - popupKey: 3004
+    title: "[\uAD6C\uB9E4 \uBD88\uAC00]"
+    message: "\uACE8\uB4DC\uAC00 \uBD80\uC871\uD569\uB2C8\uB2E4."
+    buttonText: "\uD655\uC778"
+  - popupKey: 4004
+    title: Exam Title
+    message: Exam Message
+    buttonText: Exam Button
+  - popupKey: 3005
+    title: "[\uC5F0\uAD6C \uC644\uB8CC]"
+    message: "\uC5F0\uAD6C\uC5D0 \uC644\uB8CC\uD588\uC2B5\uB2C8\uB2E4."
+    buttonText: "\uD655\uC778"
+  - popupKey: 4005
+    title: Exam Title
+    message: Exam Message
+    buttonText: Exam Button
+  - popupKey: 3006
+    title: "[\uC54C\uB9BC]"
+    message: "\uC798\uBABB\uB41C \uC811\uADFC\uC785\uB2C8\uB2E4."
+    buttonText: "\uD655\uC778"
+  - popupKey: 4006
+    title: Exam Title
+    message: Exam Message
+    buttonText: Exam Button
+  - popupKey: 3007
+    title: "[\uC54C\uB9BC]"
+    message: "\uCF00\uC774\uC9C0\uC5D0 \uBAAC\uC2A4\uD130\uAC00 \uC5C6\uC2B5\uB2C8\uB2E4."
+    buttonText: "\uD655\uC778"
+  - popupKey: 4007
+    title: Exam Title
+    message: Exam Message
+    buttonText: Exam Button
+  - popupKey: 3008
+    title: "[\uC54C\uB9BC]"
+    message: "\uB2F9\uC2E0\uC758 \uBD80\uC871\uD55C \uB2A5\uB825 \uB54C\uBB38\uC5D0
+      \uBAAC\uC2A4\uD130\uAC00 \uD0C8\uCD9C\uD588\uC2B5\uB2C8\uB2E4!"
+    buttonText: "\uD655\uC778"
+  - popupKey: 4008
+    title: Exam Title
+    message: Exam Message
+    buttonText: Exam Button
+  - popupKey: 3009
+    title: "\uD55C\uB3C4 \uCD08\uACFC"
+    message: "\uCD5C\uB300 \uC0AC\uC6A9\uD560 \uC218 \uC788\uB294 \uCE74\uB4DC\uB294
+      4\uC7A5 \uC785\uB2C8\uB2E4."
+    buttonText: "\uB124"
+  - popupKey: 4009
+    title: Exam Title
+    message: Exam Message
+    buttonText: Exam Button
+  - popupKey: 3010
+    title: "[\uC54C\uB9BC]"
+    message: "\uC544\uC9C1 \uC624\uB298\uC758 \uC5F0\uAD6C \uC900\uBE44\uB97C \uD558\uC9C0\uC54A\uC558\uC2B5\uB2C8\uB2E4.
+      \uB371 \uBC84\uD2BC\uC744 \uD074\uB9AD\uD574 \uC5F0\uAD6C\uB97C \uC900\uBE44\uD574
+      \uC8FC\uC138\uC694."
+    buttonText: "\uD655\uC778"
+  - popupKey: 4010
+    title: Exam Title
+    message: Exam Message
+    buttonText: Exam Button
+  - popupKey: 3011
+    title: "[\uC54C\uB9BC]"
+    message: "\uC544\uC9C1 \uC624\uB298\uC758 \uCE74\uB4DC \uC5F0\uAD6C \uD69F\uC218\uAC00
+      \uB0A8\uC544\uC788\uC2B5\uB2C8\uB2E4! \uB371\uBC84\uD2BC\uC744 \uB20C\uB7EC
+      \uC5F0\uAD6C\uB97C \uC9C4\uD589\uD574 \uC8FC\uC138\uC694"
+    buttonText: "\uD655\uC778"
+  - popupKey: 4011
+    title: Exam Title
+    message: Exam Message
+    buttonText: Exam Button

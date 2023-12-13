@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5262cf1d95da874aa59dfaf9dea4e50, type: 3}
+  m_Name: TestItemData
+  m_EditorClassIdentifier: 
+  ItemName: "\uC2DC\uD5D8\uC758 \uAC80"
+  ItemDescription: "\uCC3D\uC870\uC790\uAC00 \uC138\uC0C1\uC744 \uC2DC\uD5D8\uD558\uAE30
+    \uC704\uD574 \uB9CC\uB4E0 \uAC80\uC785\uB2C8\uB2E4."
+  ItemSprite: {fileID: 21300000, guid: 44966d87e2db7f245aa43a9a96496920, type: 3}
+  ItemType: 0
+  WeaponType: 2
+  Rarity: 4
+  ItemParameter: 1000
+  ItemID: 0
+  stimulusDatas: []

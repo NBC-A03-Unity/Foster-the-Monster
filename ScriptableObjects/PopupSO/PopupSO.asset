@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1a00224ab2a31945b06d13edcdf9c55, type: 3}
+  m_Name: PopupSO
+  m_EditorClassIdentifier: 
+  popups:
+  - popupKey: 1000
+    title: "[\uACBD\uACE0]"
+    message: "\uAC8C\uC784\uC744 \uC885\uB8CC\uD558\uBA74 \uBAA8\uB4E0 \uB370\uC774\uD130\uB97C
+      \uC783\uC744 \uC218 \uC788\uC2B5\uB2C8\uB2E4. \uADF8\uB798\uB3C4 \uB098\uAC00\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    leftButtonText: "\uC885\uB8CC\uD55C\uB2E4."
+    rightButtonText: "\uBA38\uBB34\uB978\uB2E4."
+  - popupKey: 2000
+    title: '[Warning]'
+    message: Are you sure you want to exit? All progress may be lost.
+    leftButtonText: Exit
+    rightButtonText: Stay
+  - popupKey: 1001
+    title: "[\uACBD\uACE0]"
+    message: "\uD3EC\uC2A4\uBAAC \uCE90\uCE58 \uC77C\uC815\uC744 \uC885\uB8CC\uD558\uACE0,
+      \uD3EC\uD0C8\uC744 \uD1B5\uD574 \uC9C0\uAD6C\uB85C \uB3CC\uC544\uAC00\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    leftButtonText: "\uB3CC\uC544\uAC04\uB2E4."
+    rightButtonText: "\uBA38\uBB34\uB978\uB2E4."
+  - popupKey: 2001
+    title: '[Warning]'
+    message: Would you like to end the Fosmon catching schedule and return to Earth
+      through the portal?
+    leftButtonText: Return
+    rightButtonText: Stay
+  - popupKey: 1002
+    title: "[\uACBD\uACE0]"
+    message: "\uC0C8\uB85C\uC6B4 \uAC8C\uC784\uC744 \uC2DC\uC791\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?
+      \uC774\uC804\uC758 \uB370\uC774\uD130\uB294 \uBAA8\uB450 \uCD08\uAE30\uD654
+      \uB429\uB2C8\uB2E4."
+    leftButtonText: "\uC2DC\uC791\uD55C\uB2E4."
+    rightButtonText: "\uB3CC\uC544\uAC04\uB2E4."
+  - popupKey: 2002
+    title: '[Warning]'
+    message: Would you like to start a new game? All previous data will be reset.
+    leftButtonText: Start
+    rightButtonText: Return
+  - popupKey: 1003
+    title: "[\uAD6C\uB9E4] \uC0C8 \uCF00\uC774\uC9C0 50G"
+    message: "\uC815\uB9D0 \uCF00\uC774\uC9C0\uB97C \uAD6C\uB9E4\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    leftButtonText: "\uAD6C\uB9E4"
+    rightButtonText: "\uC548\uC0AC\uC694"
+  - popupKey: 2003
+    title: Warning
+    message: Would you like to end the Fosmon catching schedule and return to Earth
+      through the portal?
+    leftButtonText: Stay
+    rightButtonText: Return
+  - popupKey: 1004
+    title: "[\uC54C\uB9BC]"
+    message: "\uC815\uB9D0 \uD558\uB8E8\uB97C \uB05D\uB0BC\uAE4C\uC694?"
+    leftButtonText: "\uC608"
+    rightButtonText: "\uC544\uB2C8\uC694"
+  - popupKey: 2004
+    title: Warning
+    message: Would you like to end the Fosmon catching schedule and return to Earth
+      through the portal?
+    leftButtonText: Stay
+    rightButtonText: Return
+  - popupKey: 1005
+    title: "[\uACBD\uACE0]"
+    message: "\uB3C8\uC774 \uBD80\uC871\uD569\uB2C8\uB2E4."
+    leftButtonText: "\uC544..."
+    rightButtonText: "\uADF8\uB807\uAD70\uC694..."
+  - popupKey: 2005
+    title: Warning
+    message: You don't have enough gold for your uprgade.
+    leftButtonText: Oh...
+    rightButtonText: Okay...
+  - popupKey: 1006
+    title: "[\uC54C\uB9BC]"
+    message: "5G \uB97C \uC0AC\uC6A9\uD574 \uCE74\uB4DC\uB97C \uB2E4\uC2DC \uBF51\uC2B5\uB2C8\uB2E4."
+    leftButtonText: "\uC608"
+    rightButtonText: "\uC544\uB2C8\uC694"
+  - popupKey: 2006
+    title: Warning
+    message: You don't have enough gold for your uprgade.
+    leftButtonText: Oh...
+    rightButtonText: Okay...
+  - popupKey: 1007
+    title: "[\uC54C\uB9BC]"
+    message: "\uC774 \uC544\uC774\uD15C\uC744 \uC815\uB9D0\uB85C \uC81C\uAC70 \uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    leftButtonText: "\uC608"
+    rightButtonText: "\uC544\uB2C8\uC624"
+  - popupKey: 2007
+    title: Warning
+    message: You don't have enough gold for your uprgade.
+    leftButtonText: Oh...
+    rightButtonText: Okay...
+  - popupKey: 1008
+    title: "[\uC54C\uB9BC]"
+    message: "\uC544\uC9C1 \uC624\uB298\uC758 \uD589\uC131 \uD0D0\uC0AC \uD69F\uC218\uAC00
+      \uB0A8\uC544\uC788\uC2B5\uB2C8\uB2E4 \uC815\uB9D0\uB85C \uD558\uB8E8\uB97C
+      \uB05D\uB0B4\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    leftButtonText: "\uC608"
+    rightButtonText: "\uC544\uB2C8\uC624"
+  - popupKey: 2008
+    title: Warning
+    message: You don't have enough gold for your uprgade.
+    leftButtonText: Oh...
+    rightButtonText: Okay...
+  - popupKey: 1009
+    title: "[\uC54C\uB9BC]"
+    message: "\uC815\uB9D0\uB85C \uC2A4\uD1A0\uB9AC\uB97C \uC2A4\uD0B5\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?
+      \uC2A4\uD1A0\uB9AC\uC758 \uC911\uC694\uD55C \uBD80\uBD84\uC744 \uB193\uCE60
+      \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    leftButtonText: "\uC2A4\uD0B5"
+    rightButtonText: "\uCDE8\uC18C"
+  - popupKey: 2009
+    title: '[Warning]'
+    message: Are you sure you want to skip the story? You may miss important parts
+      of the story.
+    leftButtonText: Skip
+    rightButtonText: Cancel
+  - popupKey: 1010
+    title: "[\uC54C\uB9BC]"
+    message: "\uC815\uB9D0\uB85C \uAC8C\uC784\uC744 \uC885\uB8CC\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    leftButtonText: "\uC885\uB8CC\uD55C\uB2E4."
+    rightButtonText: "\uBA38\uBB34\uB978\uB2E4."
+  - popupKey: 2010
+    title: '[Warning]'
+    message: Are you sure you want to EXIT the game?
+    leftButtonText: Exit
+    rightButtonText: Stay
+  - popupKey: 1011
+    title: "[\uC54C\uB9BC]"
+    message: "\uC815\uB9D0\uB85C \uD29C\uD1A0\uB9AC\uC5BC\uC744 \uC885\uB8CC\uD558\uACE0,
+      \uC5F0\uAD6C\uC2E4\uB85C \uAC00\uC2DC\uACA0\uC2B5\uB2C8\uAE4C? \uBA38\uBB34\uB978\uB2E4\uB97C
+      \uB204\uB974\uBA74, \uD29C\uD1A0\uB9AC\uC5BC\uC744 \uB2E4\uC2DC \uBCFC \uC218
+      \uC788\uC2B5\uB2C8\uB2E4."
+    leftButtonText: "\uC885\uB8CC\uD55C\uB2E4."
+    rightButtonText: "\uBA38\uBB34\uB978\uB2E4."
+  - popupKey: 2011
+    title: '[Warning]'
+    message: '"Are you sure you want to exit the tutorial and go to the lab? If you
+      choose to stay, you can view the tutorial again."'
+    leftButtonText: Exit
+    rightButtonText: Stay

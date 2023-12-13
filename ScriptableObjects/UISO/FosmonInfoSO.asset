@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2287ebde38d482479764f1ce4fb11ee, type: 3}
+  m_Name: FosmonInfoSO
+  m_EditorClassIdentifier: 
+  localizedStirngs:
+  - localeKey: 5000
+    English: Cold
+    Korean: "\uCD94\uC6C0"
+  - localeKey: 5001
+    English: Cool
+    Korean: "\uC2DC\uC6D0\uD568"
+  - localeKey: 5002
+    English: Normal
+    Korean: "\uBCF4\uD1B5"
+  - localeKey: 5003
+    English: Warm
+    Korean: "\uB530\uB73B\uD568"
+  - localeKey: 5004
+    English: Hot
+    Korean: "\uB354\uC6C0"
+  - localeKey: 5005
+    English: Messy
+    Korean: "\uC9C0\uC800\uBD84\uD568"
+  - localeKey: 5006
+    English: Sloppy
+    Korean: "\uBD88\uACB0\uD568"
+  - localeKey: 5007
+    English: Normal
+    Korean: "\uBCF4\uD1B5"
+  - localeKey: 5008
+    English: Neat
+    Korean: "\uAE54\uB054\uD568"
+  - localeKey: 5009
+    English: Meticulous
+    Korean: "\uCCAD\uACB0\uD568"
+  - localeKey: 5010
+    English: Lowest
+    Korean: "\uCD5C\uC18C"
+  - localeKey: 5011
+    English: Low
+    Korean: "\uB0AE\uC74C"
+  - localeKey: 5012
+    English: Normal
+    Korean: "\uBCF4\uD1B5"
+  - localeKey: 5013
+    English: High
+    Korean: "\uB192\uC74C"
+  - localeKey: 5014
+    English: Highest
+    Korean: "\uCD5C\uB300"
+  - localeKey: 5015
+    English: Friendly
+    Korean: "\uC6B0\uD638\uC801"
+  - localeKey: 5016
+    English: Normal
+    Korean: "\uBCF4\uD1B5"
+  - localeKey: 5017
+    English: Hostile
+    Korean: "\uC801\uB300\uC801"
+  - localeKey: 5018
+    English: Indiffrent
+    Korean: "\uBB34\uAD00\uC2EC\uD568"
+  - localeKey: 5019
+    English: Normal
+    Korean: "\uBCF4\uD1B5"
+  - localeKey: 5020
+    English: Curious
+    Korean: "\uD638\uAE30\uC2EC \uB9CE\uC74C"
+  - localeKey: 5021
+    English: Indiffrent to Food
+    Korean: "\uC74C\uC2DD\uC5D0 \uBB34\uAD00\uC2EC\uD568"
+  - localeKey: 5022
+    English: Normal
+    Korean: "\uBCF4\uD1B5"
+  - localeKey: 5023
+    English: Food-Loving
+    Korean: "\uC74C\uC2DD\uC744 \uC0AC\uB791\uD568"
+  - localeKey: 5024
+    English: Fearless
+    Korean: "\uAC82\uC774 \uC5C6\uC74C"
+  - localeKey: 5025
+    English: Normal
+    Korean: "\uBCF4\uD1B5"
+  - localeKey: 5026
+    English: Cowardly
+    Korean: "\uAC81\uC7C1\uC774"
+  - localeKey: 6000
+    English: Meat
+    Korean: "\uACE0\uAE30"
+  - localeKey: 6001
+    English: Grains
+    Korean: "\uACE1\uBB3C"
+  - localeKey: 6002
+    English: SeaFood
+    Korean: "\uD574\uC0B0\uBB3C"
+  - localeKey: 6003
+    English: Unknown
+    Korean: "\uC54C \uC218 \uC5C6\uC74C"

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7ecb093184cfca47846fc7434da3ef1, type: 3}
+  m_Name: CrimsonGrainBlossom
+  m_EditorClassIdentifier: 
+  cardId: 703
+  cardName: "\uADF8\uB808\uC778\uBE14\uB77C\uC378"
+  cardInfo: "[\uD5C8\uBE0C] \uACE1\uB958\uC758 \uD6A8\uACFC +7"
+  cardImage: {fileID: 21300000, guid: 67fde5a83525ba649bcffcc65a51e6a1, type: 3}
+  cardRarity: {fileID: 11400000, guid: 3654fda024b1bd346943106df6b4e2a5, type: 2}
+  cardEffects: []
+  cardSynergies:
+  - synergy: {fileID: 11400000, guid: eb9de8d20cc85ac4fa422ce3f7e5d97b, type: 2}
+    value: -7
+  cardType: 2

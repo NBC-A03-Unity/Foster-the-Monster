@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b19648f0a3812342809d6526ef50494, type: 3}
+  m_Name: EventData004
+  m_EditorClassIdentifier: 
+  eventName: "\uC911\uC559 \uC804\uAE30 \uC2DC\uC2A4\uD15C \uC815\uC0C1\uD654!"
+  eventInfo: "\uC774\uAC8C \uC65C \uB418\uC9C0?\uACE0\uC7A5\uB09C \uC911\uC559 \uC804\uAE30\uC2DC\uC2A4\uD15C\uC774
+    \uAC11\uC790\uAE30 \uC815\uC0C1\uC801\uC73C\uB85C \uC791\uB3D9\uD569\uB2C8\uB2E4
+    \uC5B8\uC81C \uB2E4\uC2DC \uACE0\uC7A5\uB0A0\uC9C0 \uBAA8\uB974\uB2C8 \uBE68\uB9AC
+    \uBC1D\uAE30\uB97C \uC870\uC808\uD574\uC57C \uD569\uB2C8\uB2E4!"
+  selectEventInfo:
+  - "\uC804\uCCB4 \uCF00\uC774\uC9C0\uC758 \uBC1D\uAE30\uB97C 1 \uC62C\uB9BD\uB2C8\uB2E4."
+  - "\uC804\uCCB4 \uCF00\uC774\uC9C0\uC758 \uBC1D\uAE30\uB97C 1 \uB0B4\uB9BD\uB2C8\uB2E4"
+  - "\uC544\uBB34\uAC83\uB3C4 \uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4."
+  selectEventFunc:
+  - so: {fileID: 11400000, guid: 5d8c4929ac798ac49870941627eef2f4, type: 2}
+    value: 1
+  - so: {fileID: 11400000, guid: 5d8c4929ac798ac49870941627eef2f4, type: 2}
+    value: -1
+  - so: {fileID: 11400000, guid: 5d8c4929ac798ac49870941627eef2f4, type: 2}
+    value: 0
