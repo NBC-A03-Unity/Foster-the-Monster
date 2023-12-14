@@ -1,36 +1,34 @@
-# Foster-the-Monster
-Foster the Monster's public repositoy. You can check the code here
+# 📌 맵
+## ✔️ DungeonGenerator.cs
+**🎇 Managed by 이경민**
 
-## 🎇 Team Notion
+- DuneonGenerator는 던전 내의 방과 복도를 생성하고 이들을 연결하는 로직을 담당하고 있습니다. 
 
-https://teamsparta.notion.site/5-ce9ebdee79f745cd944f4e8476316ab8
+- **``Awake()``**
+  - 리소스 매니저를 통해 복도 프리팹을 로드하고, 시작 방의 문에 복도를 연결하는 초기 설정을 수행합니다.
+
+- **``ConnectRoom()``**
+  - 지정된 출구 문(exitDoor)에서 새로운 방이나 복도(to)를 생성하고 연결합니다.
+    방을 연결할 때 문의 타입에 따라 적절한 입구 문을 선택합니다.
+    새로운 방을 성공적으로 생성하면 더 많은 문을 시도하고, 실패하면 다른 문을 시도합니다.
+
+- **``SelectEntrance``**
+  - 주어진 문 타입(target)과 일치하는 문을 선택합니다.
+    이 메서드는 ConnectRoom 메서드에서 호출되어 적절한 입구 문을 찾습니다.
+- **``TryCreateRoom (GameObject version)``**
+  - 주어진 문(door)에서 새 방을 생성할 수 있는지 시도합니다.
+    복도가 충분히 연결되었는지, 그리고 문이 아직 연결되지 않았는지를 검사합니다.
+
+- **``TryCreateRoom (DoorData version)``**
+  - 주어진 문 데이터(door)를 사용하여 새 방을 생성할 수 있는지 시도합니다.
+    이 메서드는 복도가 충분히 연결되었는지, 그리고 문이 아직 연결되지 않았는지를 검사합니다.
 
 
-## 🖥️ Project Introduction
+- **``CreateRoom``**
+  - 주어진 입구 문(entranceDoor)과 출구 문(exitDoor)의 위치에 새 방을 생성합니다.
+    방을 생성하기 전에 해당 위치가 사용 가능한지(CheckSpawnableRoom 메서드를 통해) 확인합니다.
 
-'Foster the Monster'는 매일 다른 카드를 선택하여 그로테스크한 포스몬을 관리하고 연구하며, 
-다양한 행성을 탐험하고 전투를 벌이면서 인류의 미래를 위해 결정적인 발견을 하고 중대한 선택을 내려가는 게임입니다.
 
-<br>
-
-# 🕰️ Development Period
-23.10.21 ~ 23.12.15
-
-# 🧑‍🤝‍🧑 Member
- - 문현우(팀장) / https://github.com/Munch310/
- - 김광수(부팀장) / https://github.com/kksoo0131/
- - 이경민(팀원) / https://github.com/kminsmin/
- - 최수용(팀원) / https://github.com/zif1519/
-
-### ⚙️ Development Environment
-- **Language** : C#
-- **Engine** : Unity 2022.3.2f1
-- **IDE** : Visual Studio 2022
-- **Framework** : .NET Standard 2.1
-
-### 📜 Assets References
-- https://assetstore.unity.com/packages/2d/characters/2d-pixel-gun-hero-5-165326
-- https://assetstore.unity.com/packages/2d/environments/2d-asset-pack-5-worlds-55845
-- https://assetstore.unity.com/packages/2d/characters/100-fantasy-characters-mega-pack-222143
-
-## 📌 Main Functions
+- **``CheckSpawnableRoom``**
+  - 주어진 위치에 방을 생성할 수 있는지 검사합니다.
+    다른 방이나 복도와 겹치지 않는지 확인하기 위해 위치와 방의 크기를 비교합니다.
