@@ -11,9 +11,10 @@ https://teamsparta.notion.site/5-ce9ebdee79f745cd944f4e8476316ab8
 
 ## 🖥️ Project Introduction
 
+![FTM-_-final-presentation-006](https://github.com/NBC-A03-Unity/Foster-the-Monster/assets/84183932/c04795b5-eea6-4634-a93d-7e9cde26c06d)
+
 'Foster the Monster'는 매일 다른 카드를 선택하여 그로테스크한 포스몬을 관리하고 연구하며, 
 다양한 행성을 탐험하고 전투를 벌이면서 인류의 미래를 위해 결정적인 발견을 하고 중대한 선택을 내려가는 게임입니다.
-
 <br>
 
 # 🕰️ Development Period
