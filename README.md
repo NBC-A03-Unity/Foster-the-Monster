@@ -4,6 +4,9 @@
 
 이곳에서 저희가 구현한 코드를 확인하실 수 있습니다.
 
+## 📌 Main Functions
+
+
 ## 🎇 Team Notion
 
  <a href="https://teamsparta.notion.site/5-ce9ebdee79f745cd944f4e8476316ab8" >팀 노션 이동</a>
@@ -45,4 +48,3 @@
 - https://assetstore.unity.com/packages/2d/environments/2d-asset-pack-5-worlds-55845
 - https://assetstore.unity.com/packages/2d/characters/100-fantasy-characters-mega-pack-222143
 
-## 📌 Main Functions
