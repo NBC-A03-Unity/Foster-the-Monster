@@ -6,7 +6,15 @@
 
 ## 🎇 Team Notion
 
-https://teamsparta.notion.site/5-ce9ebdee79f745cd944f4e8476316ab8
+ <a href="https://teamsparta.notion.site/5-ce9ebdee79f745cd944f4e8476316ab8" >팀 노션 이동</a>
+
+## 🎬 Demo Video 
+
+<a href="https://youtu.be/qCDdX-6dy8o?si=Namw4QUI7LNidSEO" >데모 영상 이동</a>
+
+## ✅ Game Link
+
+<a href="https://munch310.itch.io/foster-the-monster" >플레이 사이트 이동</a>
 
 
 ## 🖥️ Project Introduction
