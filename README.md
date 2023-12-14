@@ -1,5 +1,8 @@
-# Foster-the-Monster
-Foster the Monster's public repositoy. You can check the code here
+# Foster the Monster
+이곳은 Foster the Monster의 공개 저장공간입니다.
+기존 저장소는 라이선스 이슈로 인해 비공개 중입니다.
+
+이곳에서 저희가 구현한 코드를 확인하실 수 있습니다.
 
 ## 🎇 Team Notion
 
