@@ -1,36 +1,37 @@
-# Foster-the-Monster
-Foster the Monster's public repositoy. You can check the code here
+# 📌 Monster
+## ✔️ Monster.cs
+**🎇 Managed by 최수용**
 
-## 🎇 Team Notion
+- Monster는 몬스터의 생명주기 관리, 상태 변화, 이벤트 통지, 데미지 및 포획 처리 등 몬스터의 동작에 필수적인 부분들을 담당합니다.
 
-https://teamsparta.notion.site/5-ce9ebdee79f745cd944f4e8476316ab8
+- **``Awake()``**
+  - 객체가 초기화될 때 호출되며, 몬스터 관련 컴포넌트를 가져오고, 센서를 설정합니다.
 
+- **``OnEnable()``**
+  - 객체가 활성화될 때 호출되며, 몬스터 데이터를 초기화하고 Init 메서드를 호출합니다.
 
-## 🖥️ Project Introduction
+- **``Init()``**
+  - 몬스터의 초기화 로직을 처리합니다. 센서를 초기화하고, 이벤트 리스너를 설정하며, 몬스터의 기본 모드와 상태를 설정합니다.
 
-'Foster the Monster'는 매일 다른 카드를 선택하여 그로테스크한 포스몬을 관리하고 연구하며, 
-다양한 행성을 탐험하고 전투를 벌이면서 인류의 미래를 위해 결정적인 발견을 하고 중대한 선택을 내려가는 게임입니다.
+- **``AddListenerToSensor()``**
+  - 센서에 자극을 감지하거나 감지하지 못할 때 호출될 이벤트 리스너를 추가합니다.
 
-<br>
+- **``RemoveListenerToSensor())``**
+  - 센서에서 이벤트 리스너를 제거합니다.
 
-# 🕰️ Development Period
-23.10.21 ~ 23.12.15
+- **``AddStimulusList()``**
+  - 자극 리스트에 새로운 자극을 추가하고, 이 리스트가 변경되었음을 알리는 이벤트를 발생시킵니다.
 
-# 🧑‍🤝‍🧑 Member
- - 문현우(팀장) / https://github.com/Munch310/
- - 김광수(부팀장) / https://github.com/kksoo0131/
- - 이경민(팀원) / https://github.com/kminsmin/
- - 최수용(팀원) / https://github.com/zif1519/
+- **``RemoveStimulusList()``**
+  - 자극 리스트에서 특정 자극을 제거하고, 현재 자극이 해당 자극과 같다면 null로 설정합니다. 또한, 이 리스트가 변경되었음을 알리는 이벤트를 발생시킵니다.
 
-### ⚙️ Development Environment
-- **Language** : C#
-- **Engine** : Unity 2022.3.2f1
-- **IDE** : Visual Studio 2022
-- **Framework** : .NET Standard 2.1
+- **``BeAttacked()``**
+  - 몬스터가 공격을 받았을 때 호출되어 몬스터의 모드를 변경하고, 애니메이션과 사운드 효과를 재생합니다. 또한 포획될 확률을 계산하여 포획 여부를 결정합니다.
 
-### 📜 Assets References
-- https://assetstore.unity.com/packages/2d/characters/2d-pixel-gun-hero-5-165326
-- https://assetstore.unity.com/packages/2d/environments/2d-asset-pack-5-worlds-55845
-- https://assetstore.unity.com/packages/2d/characters/100-fantasy-characters-mega-pack-222143
+- **``FallInHappy()``**
+  - 몬스터가 기쁨의 상태로 전환될 때 호출되어 모드를 업데이트하고, 대상을 새로운 목표로 설정합니다.
 
-## 📌 Main Functions
+- **``BeDamaged()``**
+  - 몬스터가 데미지를 입었을 때 호출되어 HP를 감소시킵니다.
+- **``BeCaught()``**
+  - 몬스터가 포획되었을 때 호출되어, 몬스터를 데이터 매니저에 추가하고, 오브젝트를 오브젝트 풀로 반환합니다.
