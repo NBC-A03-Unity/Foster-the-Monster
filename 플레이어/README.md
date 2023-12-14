@@ -1,36 +1,59 @@
-# Foster-the-Monster
-Foster the Monster's public repositoy. You can check the code here
+# 📌 플레이어
+## ✔️ Player.cs
+**🎇 Managed by 이경민**
 
-## 🎇 Team Notion
+- Player는 플레이어의 상태, 인벤토리 관리, 능력치 설정 및 업데이트 등을 책임집니다. 메서드 체이닝을 통해 여러 설정을 연속적으로 적용할 수 있도록 설계되었습니다.
 
-https://teamsparta.notion.site/5-ce9ebdee79f745cd944f4e8476316ab8
+- **``생성자 ()``**
+  - 플레이어의 초기 상태를 설정합니다. 이에는 끈기, 체력, 스트레스 한계, 점프 능력, 무기 유형, 이동 속도, 골드가 포함됩니다. 또한 인벤토리를 초기화합니다.
 
+- **``SetTenacity()``**
+  - 플레이어의 최대 및 현재 끈기를 설정합니다. 메서드 체이닝을 사용하여 다른 설정과 연쇄적으로 호출할 수 있습니다.
 
-## 🖥️ Project Introduction
+- **``SetHP()``**
+  - 플레이어의 최대 및 현재 체력을 설정합니다. 메서드 체이닝을 통해 다른 설정과 연계하여 호출할 수 있습니다.
 
-'Foster the Monster'는 매일 다른 카드를 선택하여 그로테스크한 포스몬을 관리하고 연구하며, 
-다양한 행성을 탐험하고 전투를 벌이면서 인류의 미래를 위해 결정적인 발견을 하고 중대한 선택을 내려가는 게임입니다.
+- **``SetStress()``**
+  - 플레이어의 스트레스 한계를 설정하고 현재 스트레스를 0으로 초기화합니다. 메서드 체이닝을 사용할 수 있습니다.
 
-<br>
+- **``SetJump()``**
+  - 플레이어의 최대 점프 능력을 설정합니다. 메서드 체이닝으로 다른 설정과 연결할 수 있습니다.
 
-# 🕰️ Development Period
-23.10.21 ~ 23.12.15
+- **``SetGold()``**
+  - 플레이어의 골드 양을 설정합니다. 메서드 체이닝이 가능합니다.
 
-# 🧑‍🤝‍🧑 Member
- - 문현우(팀장) / https://github.com/Munch310/
- - 김광수(부팀장) / https://github.com/kksoo0131/
- - 이경민(팀원) / https://github.com/kminsmin/
- - 최수용(팀원) / https://github.com/zif1519/
+- **``SetSpeed()``**
+  - 플레이어의 이동 속도를 설정합니다. 메서드 체이닝을 사용할 수 있습니다.
 
-### ⚙️ Development Environment
-- **Language** : C#
-- **Engine** : Unity 2022.3.2f1
-- **IDE** : Visual Studio 2022
-- **Framework** : .NET Standard 2.1
+- **``SetAttack()``**
+  - 플레이어의 공격력을 설정합니다. 메서드 체이닝이 가능합니다.
 
-### 📜 Assets References
-- https://assetstore.unity.com/packages/2d/characters/2d-pixel-gun-hero-5-165326
-- https://assetstore.unity.com/packages/2d/environments/2d-asset-pack-5-worlds-55845
-- https://assetstore.unity.com/packages/2d/characters/100-fantasy-characters-mega-pack-222143
+- **``SetAttackSpeed()``**
+  - 플레이어의 공격 속도를 설정합니다. 메서드 체이닝을 사용할 수 있습니다.
 
-## 📌 Main Functions
+- **``SetInventory()``**
+  - 플레이어의 인벤토리를 초기화합니다. 메서드 체이닝이 가능합니다.
+
+- **``DecreaseTenacity()``**
+  - 플레이어의 현재 끈기를 감소시킵니다. 메서드 체이닝을 사용할 수 있습니다.
+
+- **``DecreaseHP()``**
+  - 플레이어의 현재 체력을 감소시킵니다. 메서드 체이닝을 사용할 수 있습니다.
+
+- **``IncreaseStress()``**
+  - 플레이어의 스트레스를 증가시킵니다. 스트레스 한계를 초과하지 않도록 합니다. 메서드 체이닝이 가능합니다.
+
+- **``ChangeWeapon()``**
+  - 플레이어의 무기 유형을 변경합니다. 메서드 체이닝을 사용할 수 있습니다.
+
+- **``ChangeGold()``**
+  - 플레이어의 골드를 추가 또는 감소시킵니다. 메서드 체이닝이 가능합니다.
+
+- **``AddToInventory()``**
+  - 아이템을 플레이어의 인벤토리에 추가합니다.
+
+- **``ThrowItem()``**
+  - 플레이어가 특정 아이템을 던질 수 있도록 합니다. 아이템이 인벤토리에서 감소하거나 제거됩니다.
+
+- **``SetThrowableItem()``**
+  - 플레이어가 던질 수 있는 아이템을 설정합니다.
