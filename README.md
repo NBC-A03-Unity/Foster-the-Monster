@@ -53,13 +53,13 @@ UI - <a href="https://github.com/NBC-A03-Unity/Foster-the-Monster/blob/main/%EC%
  - 이경민(팀원) / https://github.com/kminsmin/
  - 최수용(팀원) / https://github.com/zif1519/
 
-### ⚙️ Development Environment
+# ⚙️ Development Environment
 - **Language** : C#
 - **Engine** : Unity 2022.3.2f1
 - **IDE** : Visual Studio 2022
 - **Framework** : .NET Standard 2.1
 
-### 📜 Assets References
+# 📜 Assets References
 - https://assetstore.unity.com/packages/2d/characters/2d-pixel-gun-hero-5-165326
 - https://assetstore.unity.com/packages/2d/environments/2d-asset-pack-5-worlds-55845
 - https://assetstore.unity.com/packages/2d/characters/100-fantasy-characters-mega-pack-222143
