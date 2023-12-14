@@ -12,7 +12,7 @@
     방을 연결할 때 문의 타입에 따라 적절한 입구 문을 선택합니다.
     새로운 방을 성공적으로 생성하면 더 많은 문을 시도하고, 실패하면 다른 문을 시도합니다.
 
-- **``SelectEntrance``**
+- **``SelectEntrance()``**
   - 주어진 문 타입(target)과 일치하는 문을 선택합니다.
     이 메서드는 ConnectRoom 메서드에서 호출되어 적절한 입구 문을 찾습니다.
 - **``TryCreateRoom (GameObject version)``**
@@ -24,11 +24,11 @@
     이 메서드는 복도가 충분히 연결되었는지, 그리고 문이 아직 연결되지 않았는지를 검사합니다.
 
 
-- **``CreateRoom``**
+- **``CreateRoom()``**
   - 주어진 입구 문(entranceDoor)과 출구 문(exitDoor)의 위치에 새 방을 생성합니다.
     방을 생성하기 전에 해당 위치가 사용 가능한지(CheckSpawnableRoom 메서드를 통해) 확인합니다.
 
 
-- **``CheckSpawnableRoom``**
+- **``CheckSpawnableRoom()``**
   - 주어진 위치에 방을 생성할 수 있는지 검사합니다.
     다른 방이나 복도와 겹치지 않는지 확인하기 위해 위치와 방의 크기를 비교합니다.
