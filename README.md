@@ -14,6 +14,8 @@
 
 UI - <a href="https://github.com/NBC-A03-Unity/Foster-the-Monster/blob/main/%EC%9C%A0%EC%A0%80%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4(UI)/README.md" >플레이 사이트 이동</a>
 
+오디오 - <a href="https://github.com/NBC-A03-Unity/Foster-the-Monster/blob/main/%EC%98%A4%EB%94%94%EC%98%A4/README.md" >오디오 사이트 이동</a>
+
 카드 - <a href="https://github.com/NBC-A03-Unity/Foster-the-Monster/blob/main/%EC%B9%B4%EB%93%9C/README.md" >카드 사이트 이동</a>
 
 케이지 - <a href="https://github.com/NBC-A03-Unity/Foster-the-Monster/blob/main/%EC%BC%80%EC%9D%B4%EC%A7%80/README.md" >케이지 사이트 이동</a>
