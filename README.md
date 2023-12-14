@@ -25,7 +25,7 @@ UI - <a href="https://github.com/NBC-A03-Unity/Foster-the-Monster/blob/main/%EC%
 
 # 🎇 Team Notion
 
- <a href="https://teamsparta.notion.site/5-ce9ebdee79f745cd944f4e8476316ab8" >팀 노션 이동</a>
+ <a href="https://teamsparta.notion.site/Foster-the-Monster-f64445250b104dd698b2ee9dfee6f597" >팀 노션 이동</a>
 
 # 🎬 Demo Video 
 
