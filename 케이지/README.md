@@ -5,7 +5,7 @@
 - CageMainController는 MVC 패턴으로 만들어진 Cage의 중심에서 기능별로 나누어진 Controller들을 관리합니다.
 
 - **``InitNewCage(RenderTexture renderTexture, CageBtn cageBtn)``**
- - 새로운 케이지 Model을 생성하고 Model과 Controller들을 생성합니다.
+  - 새로운 케이지 Model을 생성하고 Model과 Controller들을 생성합니다.
 
 - **``InitLoadCage(RenderTexture renderTexture, CageBtn cageBtn, Cage cage)``**
   - 기존의 케이지 Model을 이용하여 Controller들을 생성합니다.
