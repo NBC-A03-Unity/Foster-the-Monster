@@ -6,19 +6,19 @@
 
 # 📌 Main Functions
 
-맵 - <a href="https://github.com/NBC-A03-Unity/Foster-the-Monster/blob/main/%EB%A7%B5/README.md" >플레이 사이트 이동</a>
+맵 - <a href="https://github.com/NBC-A03-Unity/Foster-the-Monster/blob/main/%EB%A7%B5/README.md" >맵 사이트 이동</a>
 
-몬스터 - <a href="https://github.com/NBC-A03-Unity/Foster-the-Monster/blob/main/%EB%AA%AC%EC%8A%A4%ED%84%B0/README.md" >플레이 사이트 이동</a>
+몬스터 - <a href="https://github.com/NBC-A03-Unity/Foster-the-Monster/blob/main/%EB%AA%AC%EC%8A%A4%ED%84%B0/README.md" >몬스터 사이트 이동</a>
 
-무기 - <a href="https://github.com/NBC-A03-Unity/Foster-the-Monster/tree/main/%EB%AC%B4%EA%B8%B0" >플레이 사이트 이동</a>
+무기 - <a href="https://github.com/NBC-A03-Unity/Foster-the-Monster/tree/main/%EB%AC%B4%EA%B8%B0" >무기 사이트 이동</a>
 
 UI - <a href="https://github.com/NBC-A03-Unity/Foster-the-Monster/blob/main/%EC%9C%A0%EC%A0%80%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4(UI)/README.md" >플레이 사이트 이동</a>
 
-카드 - <a href="https://github.com/NBC-A03-Unity/Foster-the-Monster/blob/main/%EC%B9%B4%EB%93%9C/README.md" >플레이 사이트 이동</a>
+카드 - <a href="https://github.com/NBC-A03-Unity/Foster-the-Monster/blob/main/%EC%B9%B4%EB%93%9C/README.md" >카드 사이트 이동</a>
 
-케이지 - <a href="https://github.com/NBC-A03-Unity/Foster-the-Monster/blob/main/%EC%BC%80%EC%9D%B4%EC%A7%80/README.md" >플레이 사이트 이동</a>
+케이지 - <a href="https://github.com/NBC-A03-Unity/Foster-the-Monster/blob/main/%EC%BC%80%EC%9D%B4%EC%A7%80/README.md" >케이지 사이트 이동</a>
 
-플레이어 - <a href="https://github.com/NBC-A03-Unity/Foster-the-Monster/blob/main/%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4/README.md" >플레이 사이트 이동</a>
+플레이어 - <a href="https://github.com/NBC-A03-Unity/Foster-the-Monster/blob/main/%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4/README.md" >플레이어 사이트 이동</a>
 
 
 # 🎇 Team Notion
