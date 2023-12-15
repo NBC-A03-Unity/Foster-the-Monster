@@ -16,7 +16,7 @@
 
 무기 - <a href="https://github.com/NBC-A03-Unity/Foster-the-Monster/tree/main/%EB%AC%B4%EA%B8%B0" >무기 사이트 이동</a>
 
-UI - <a href="https://github.com/NBC-A03-Unity/Foster-the-Monster/blob/main/%EC%9C%A0%EC%A0%80%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4(UI)/README.md" >플레이 사이트 이동</a>
+UI - <a href="https://github.com/NBC-A03-Unity/Foster-the-Monster/blob/main/%EC%9C%A0%EC%A0%80%20%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4(UI)/README.md" >UI 사이트 이동</a>
 
 오디오 - <a href="https://github.com/NBC-A03-Unity/Foster-the-Monster/blob/main/%EC%98%A4%EB%94%94%EC%98%A4/README.md" >오디오 사이트 이동</a>
 
